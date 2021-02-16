@@ -1,0 +1,43 @@
+body {
+  background-color: #d8da3d;
+  height: 100%;
+}
+div.left {
+  margin: 5px;
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+
+  left: 0;
+}
+.nav-box {
+  background-color: white;
+  margin: 10px 0px 10px 10px;
+  width: 180px;
+
+  display: inline-block;
+
+  height: 30px;
+}
+.nav-text {
+  color: #80007e;
+  margin: 5px;
+  display: inline-block;
+}
+.black-box {
+  display: block;
+  background-color: black;
+  float: right;
+  height: 100%;
+  width: 15%;
+}
+div.right {
+  margin-left: 220px;
+  color: #80007e;
+  margin-bottom: 70px;
+}
+.border {
+  margin-top: 100px;
+  border-top: 2px dotted black;
+}

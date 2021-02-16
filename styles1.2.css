@@ -1,0 +1,75 @@
+body {
+  background-color: #d8da3d;
+  height: 100%;
+}
+div.left {
+  margin: 5px;
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  left: 0;
+}
+.nav-box {
+  background-color: white;
+  margin: 10px 0px 10px 10px;
+  width: 150px;
+
+  display: inline-block;
+
+  height: 30px;
+}
+.nav-text {
+  color: #80007e;
+  margin: 5px;
+  display: inline-block;
+}
+.black-box {
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.color-boxes {
+  display: flex;
+  flex-direction: column;
+  left: 129px;
+  position: absolute;
+}
+.color-boxes :nth-child(even) {
+  background-color: orange;
+}
+.color-boxes :nth-child(odd) {
+  background-color: blue;
+}
+
+div.right {
+  margin-left: 220px;
+  color: #80007e;
+  margin-bottom: 70px;
+}
+.ruler {
+  margin-top: 100px;
+  border-top: 2px dotted blue;
+}
+.border {
+  width: 70%;
+  margin-top: 50px;
+  padding: 5px;
+  color: black;
+}
+.text-left {
+  border: 2px dashed black;
+}
+.text-center {
+  text-align: center;
+  border: 2px dashed red;
+  font-style: italic;
+}
+.text-right {
+  text-align: right;
+  border: 2px dotted blue;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
